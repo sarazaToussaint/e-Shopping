@@ -8,7 +8,7 @@ export const setProducts = (products) => {
     }
 }
 
-export const selectProduct = (product) => {
+export const selectedProduct = (product) => {
   
     return {
         type: ActionTypes.SELECT_PRODUCT,
